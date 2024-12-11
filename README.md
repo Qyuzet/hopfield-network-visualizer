@@ -36,6 +36,10 @@ This project is an interactive web application for visualizing Hopfield Neural N
 - Flask
 - Numpy (Neural network computations)
 
+## Demo Video
+
+https://www.loom.com/share/04319ce5db05479c99d517913100dd78?sid=523a56c7-4e73-4d2d-88b0-2b5f249718cf
+
 ## Key Components
 
 ### Grid Visualization
