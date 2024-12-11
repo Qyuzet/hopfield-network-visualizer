@@ -1,4 +1,4 @@
-# Hopfield Network Visualizer: Exploring Associative Memory and Neural Computations
+# Hopfield Network Visualizer: Exploring Associative Memory and Neural Computations [1.225 neurons & pixel]
 
 ## Overview
 
