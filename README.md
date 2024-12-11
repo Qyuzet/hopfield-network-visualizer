@@ -119,8 +119,9 @@ Hopfield Networks are a type of recurrent artificial neural network that can sto
 ## Contributing
 Contributions, issues, and feature requests are welcome!
 
-## 📄 License
-[Add your license here]
+## License
+MIT
 
-## 🙏 Acknowledgments
-- [List any inspirations, libraries, or resources]
+##  Acknowledgments
+Inspiration:
+Hopfield, J. (1982). Neural networks and physical systems with emergent collective computational abilities.. Proceedings of the National Academy of Sciences of the United States of America, 79 8, 2554-8 . https://doi.org/10.1073/PNAS.79.8.2554.
