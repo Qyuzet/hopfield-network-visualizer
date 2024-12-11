@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.katex-container {
+  display: inline-block;
+  font-size: inherit !important; /* Allow Tailwind to control font size */
+  line-height: inherit !important; /* Ensure proper scaling */
+}
