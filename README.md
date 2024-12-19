@@ -126,6 +126,18 @@ Contributions, issues, and feature requests are welcome!
 ## License
 MIT
 
+
+
+
+Initial Grid: You start with a noisy grid (a version of a grid that is similar but not exactly the same as the memorized one).
+
+Energy Calculation: At the start, the code calculates the "energy" of the current grid. Energy is a measure of how well the grid matches the stored patterns. The goal is to reduce the energy to a minimum (which means the grid is as close as possible to a memorized pattern).
+
+Update the Grid: The grid is then updated in a series of steps. Each element of the grid is updated based on the sum of its interactions with all the other elements in the grid. If the sum is positive, the element is set to +1; if it's negative, it's set to -1. These updates are designed to bring the grid closer to a stored pattern.
+
+Recalculate Energy: After each update, the energy is recalculated. If the energy doesn't change from one iteration to the next, that means the grid has stabilized and no further changes are needed.
+
+Break on Convergence: When the energy no longer changes between iterations, the system is considered to have converged. At this point, the grid is assumed to have settled into the closest pattern that was previously stored, even though it started from a noisy or incomplete version.
 ##  Acknowledgments
 Inspiration:
 Hopfield, J. (1982). Neural networks and physical systems with emergent collective computational abilities.. Proceedings of the National Academy of Sciences of the United States of America, 79 8, 2554-8 . https://doi.org/10.1073/PNAS.79.8.2554.
